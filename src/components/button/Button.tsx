@@ -1,7 +1,7 @@
-import React, {FC} from 'react';
+import React, { HTMLAttributes } from 'react';
 import './button.css';
 
-export interface ButtonProps {
+export interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
   /**
    * Is this the principal call to action on the page?
    */
@@ -27,7 +27,7 @@ export interface ButtonProps {
 /**
  * Primary UI component for user interaction
  */
-export const Button: FC<ButtonProps> = ({
+export const Button: React.FC<ButtonProps> = ({
   primary = false,
   size = 'medium',
   backgroundColor,
