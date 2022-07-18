@@ -1,6 +1,7 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
-import { Button, ButtonProps } from '../../../src/components/button/Button';
+import { Button } from '../../../src/components/button/Button';
+import { ButtonProps } from '../../../src/components/button/ButtonInterface';
 
 export default {
   title: 'Library/component/Button',
@@ -34,5 +35,3 @@ Small.args = {
   size: 'small',
   label: 'Button',
 };
-
-export const button = {Primary, Secondary, Large, Small};
