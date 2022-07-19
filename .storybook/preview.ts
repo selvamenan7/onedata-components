@@ -1,6 +1,9 @@
-
+import { theme } from "@chakra-ui/react"
 // https://storybook.js.org/docs/react/writing-stories/parameters#global-parameters
 export const parameters = {
+  chakra: {
+    theme
+  },
   controls: {
     matchers: {
       color: /(background|color)$/i,

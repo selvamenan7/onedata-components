@@ -73,6 +73,7 @@
     "typescript": "^3.9.10"
   },
   "devDependencies": {
+    "@chakra-ui/storybook-addon": "^2.0.0-next.4",
     "@types/styled-components": "^5.1.25",
     "chromatic": "^6.7.0"
   },
